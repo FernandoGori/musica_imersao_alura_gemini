@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Documento em Português</title>
+    <style>
+        .imagem-link {
+            border: none;
+            /* Remove a borda padrão dos links */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Compositores Clássicos</h1>
+    </header>
+    <main>
+        <h2>Compositores do período Barroco</h2>
+        <p class="descricao-meta">O período barroco, que se estendeu aproximadamente do final do século XVI até meados do século XVIII, foi marcado por uma estética exuberante e emotiva na música. Caracterizado por ornamentações complexas, contrastes dinâmicos e uma forte expressão emocional, o barroco representa um momento de grande desenvolvimento na história da música ocidental. Compositores como Bach, Handel e Vivaldi, com suas obras grandiosas e virtuosísticas, elevaram a música a novas alturas, deixando um legado duradouro que influencia a música até os dias de hoje.</p>
+        
+        <section>
+            <input type="text" placeholder="Digite o nome do compositor" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <section class="resultados-pesquisa"
+        id = "resultados-pesquisa">
+
+<!----- Conteúdo 'puro' html --------------------------------
+        <div class="item-resultado">
+                <h2>Johann Sebastian Bach</h2>
+                <p class="descricao-meta">
+                    <a href="https://pt.wikipedia.org/wiki/Johann_Sebastian_Bach" target="_blank"
+                    class="imagem-link">                <img src="bach.jpg" width="250" height="300" alt="Johann Sebastian Bach">
+                    </a>
+                </p>
+            </div>
+        
+            <div class="item-resultado">
+                <h2>Ludwig van Beethoven</h2>
+                <p class="descricao-meta">
+                    <a href="https://pt.wikipedia.org/wiki/Ludwig_van_Beethoven" target="_blank"
+                    class="imagem-link">
+                        <img src="beethoven.jpg" width="250" height="300" alt="Ludwig van Beethoven">
+                    </a>
+                </p>
+            </div>
+        
+            <div class="item-resultado">
+                <h2>Wolfgang Amadeus Mozart</h2>
+                <p class="descricao-meta">
+                    <a href="https://pt.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank"
+                    class="imagem-link">
+                        <img src="mozart.jpg" width="250" height="300" alt="Wolfgang Amadeus Mozart">
+                    </a>
+                </p>
+            </div>
+        
+            <div class="item-resultado">
+                <h2>Ludwig van Beethoven (via Gemini)</h2>
+                <table>
+                    <td>
+                        <p class="descricao-meta">
+                            <a href="https://pt.wikipedia.org/wiki/Ludwig_van_Beethoven" target="_blank" class="imagem-link">
+                                <img src="beethoven.jpg" width="250" height="300" alt="Ludwig van Beethoven">
+                            </a>
+                        </p>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p>Considerado um dos maiores compositores de todos os tempos, Beethoven revolucionou a música clássica com suas sinfonias poderosas e emocionantes. Mesmo perdendo a audição, continuou a criar obras-primas, deixando um legado que influencia a música até hoje.</p>
+                    </td>
+                </table>
+            </div>
+
+            <div class="item-resultado">
+                <h2>Wolfgang Amadeus Mozart (via Gemini)</h2>
+                <table >
+                    <td>
+                        <p class="descricao-meta">
+                            <a href="https://pt.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank" class="imagem-link">
+                                <img src="mozart.jpg" width="250" height="300" alt="Wolfgang Amadeus Mozart (via Gemini)">
+                            </a>
+                        </p>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p>Prodígio musical desde a infância, Mozart compôs uma vasta obra que abrange gêneros como óperas, sinfonias e concertos. Sua música, caracterizada por uma melodia rica e harmonia complexa, o tornou um dos compositores mais influentes da história.</p>
+                    </td>
+                </table>
+            </div> 
+-->
+            
+        </section>
+        
+    </main>
+    <footer>
+        <p>2024 - Compositores Clássicos. Todos os direitos reservados.</p>
+        <p>Contato: info@musicaclassica.com.br</p>
+    </footer>
+
+    <script src ="dados.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
